@@ -25,5 +25,35 @@
       "password": "1234fdg",
       "id": 5
     }
+  ],
+  "mainSettings": [
+    {
+      "firstName": "Юлія",
+      "lastName": "Іванова",
+      "sex": "жіноча",
+      "relationship": "не одружений",
+      "dateOfBirth": "1991-06-12",
+      "location": "Мінськ",
+      "id": 1
+    },
+    {
+      "firstName": "Юлія",
+      "lastName": "tt",
+      "sex": "жіноча",
+      "relationship": "не одружений",
+      "dateOfBirth": "1991-06-12",
+      "location": "Мінськ",
+      "id": 2
+    }
+  ],
+  "privacySettings": [
+    {
+      "pageType": "відкита",
+      "messages": "тільки друзі",
+      "postsWrite": "усі",
+      "postsLook": "тільки друзі",
+      "friendsLook": "тільки друзі",
+      "id": 1
+    }
   ]
 }

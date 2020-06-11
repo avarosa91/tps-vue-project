@@ -30,6 +30,12 @@ const routes: Array<RouteConfig> = [
         name: "Contacts",
         component: () =>
             import(/* webpackChunkName: "contacts" */ "../views/Contacts.vue")
+    },
+    {
+        path: "/:lang/settings",
+        name: "Settings",
+        component: () =>
+            import(/* webpackChunkName: "contacts" */ "../views/Settings.vue")
     }
 ];
 

@@ -4,6 +4,7 @@
     "home": "Home",
     "about": "About",
     "contacts": "Contacts",
+    "settings": "Settings",
     "language": "Choose language"
   },
   "home": {
@@ -26,5 +27,61 @@
   "contacts": {
     "title": "Contacts",
     "content": "<p class=\"lead mt-5\">Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.\n\n</p> <p>If you’d like to learn more about Vue before diving in, we created a video walking through the core principles and a sample project.\n\n</p> <p>If you are an experienced frontend developer and want to know how Vue compares to other libraries/frameworks, check out the Comparison with Other Frameworks.</p>"
+  },
+  "settings": {
+    "title": "Settings",
+    "loginForm": {
+      "main": {
+        "title": "Main settings",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "sex": "Sex",
+        "sexTypes": {
+          "notSpecified": "not specified",
+          "male": "male",
+          "female": "female"
+        },
+        "relationship": "Relationship",
+        "relationshipStatus": {
+          "married": "married",
+          "notMarried": "not married",
+          "single": "single",
+          "dating": "dating"
+        },
+        "dateOfBirth": "Date of birth",
+        "location": "Location"
+      },
+      "privacy": {
+        "title": "Privacy settings",
+        "pageType": "Page type",
+        "pageTypes": {
+          "open": "open",
+          "closed": "closed"
+        },
+        "messages": "Who can send messages",
+        "messagesPermits": {
+          "everyone": "everyone",
+          "friendsOnly": "friends only"
+        },
+        "postsWrite": "Who can write posts on the wall",
+        "postsWritePermits": {
+          "everyone": "everyone",
+          "friendsOnly": "friends only"
+        },
+        "postsLook": "Who can see posts on the wall",
+        "postsLookPermits": {
+          "everyone": "everyone",
+          "friendsOnly": "friends only"
+        },
+        "friendsLook": "Who can see my friends list",
+        "friendsLookPermits": {
+          "everyone": "everyone",
+          "friendsOnly": "friends only"
+        }
+      },
+      "save": "Save",
+      "saveErrorMessage": "Please, fill the form correctly",
+      "saveSuccessMessage": "Your data has been saved successfully"
+    }
   }
 }

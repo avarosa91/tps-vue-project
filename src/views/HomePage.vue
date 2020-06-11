@@ -64,18 +64,6 @@
             this.$v.password.$touch();
         }
 
-        public submitForm(): void {
-            console.log('submit!')
-            this.$v.$touch()
-            if (this.$v.$invalid) {
-                this.submitStatus = 'ERROR'
-                console.log('error');
-            } else {
-                this.submitStatus = 'OK'
-                console.log(this.email, this.password);
-            }
-        }
-
         public async formSubmit(): Promise<void> {
             let apiResponse;
             const formData = {

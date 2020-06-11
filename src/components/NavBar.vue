@@ -16,6 +16,9 @@
           <li class="nav-item">
             <router-link tag="a" class="nav-link" :to="`/${$i18n.locale}/contacts`">{{ $t('nav.contacts') }}</router-link>
           </li>
+          <li class="nav-item">
+            <router-link tag="a" class="nav-link" :to="`/${$i18n.locale}/settings`">{{ $t('nav.settings') }}</router-link>
+          </li>
         </ul>
         <LangSwitcher></LangSwitcher>
       </div>
