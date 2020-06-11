@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter, {RouteConfig} from "vue-router";
-import HomePage from "../views/HomePage.vue";
 import i18n from "../i18n";
 
 Vue.use(VueRouter);
