@@ -11,9 +11,12 @@
     "loginForm": {
       "title": "Login form",
       "emailInput": "Email address",
-      "emailHelp": "We'll never share your email with anyone else.",
+      "emailHelp": "Your email should be valid",
+      "passwordHelp": "Your password should be at least 6 symbols length",
       "password": "Password",
-      "submit": "Login"
+      "submit": "Login",
+      "submitErrorMessage": "Please, fill the form correctly",
+      "submitSuccessMessage": "Your data has been sent successfully"
     }
   },
   "about": {

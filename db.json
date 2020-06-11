@@ -1,0 +1,29 @@
+{
+  "login": [
+    {
+      "email": "test@test.test",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "test@test.test",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "email": "test@tesfddh.fg",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "email": "test@tesfddh.fg",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "email": "test@test.te",
+      "password": "1234fdg",
+      "id": 5
+    }
+  ]
+}

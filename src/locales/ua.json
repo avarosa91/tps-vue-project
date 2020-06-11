@@ -11,9 +11,12 @@
     "loginForm": {
       "title": "Форма введення логіна",
       "emailInput": "Введіть email",
-      "emailHelp": "Ми ніколи нікому не повідомимо Ваш email",
+      "emailHelp": "Ваш email повинен бути дійсним",
+      "passwordHelp": "Ваш пароль повинен бути довжиною не менше 6 символів",
       "password": "Введіть пароль",
-      "submit": "Увійти"
+      "submit": "Увійти",
+      "submitErrorMessage": "Будь ласка, заповніть форму правильно",
+      "submitSuccessMessage": "Ваші дані успішно відправлені"
     }
   },
   "about": {

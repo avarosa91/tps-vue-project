@@ -11,9 +11,12 @@
     "loginForm": {
       "title": "Форма ввода логина",
       "emailInput": "Введите email",
-      "emailHelp": "Мы никогда никому не сообщим Ваш Email",
+      "emailHelp": "Ваш email должен быть валидным",
+      "passwordHelp": "Ваш пароль должен быть длиной не менее 6 символов",
       "password": "Введите пароль",
-      "submit": "Войти"
+      "submit": "Войти",
+      "submitErrorMessage": "Пожалуйста, заполните форму правильно",
+      "submitSuccessMessage": "Ваши данные успешно отправлены"
     }
   },
   "about": {
